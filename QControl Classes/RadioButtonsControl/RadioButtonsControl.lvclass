@@ -42,17 +42,20 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 	<Item Name="RadioButtonsControl.ctl" Type="Class Private Data" URL="RadioButtonsControl.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Properties" Type="Folder"/>
-	<Item Name="Protected Methods" Type="Folder">
-		<Item Name="Load Reference.vi" Type="VI" URL="../Load Reference.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;0!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!&gt;'V*B:'FP1H6U&gt;'^O=U.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!85G&amp;E;7^#&gt;82U&lt;WZT1W^O&gt;(*P&lt;#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71(!!#!!!!!-!!!F3:7:F=G6O9W5!0E"Q!"Y!!"U&lt;5G&amp;E;7^#&gt;82U&lt;WZT1W^O&gt;(*P&lt;#ZM&gt;G.M98.T!":3972J&lt;U*V&gt;(2P&lt;H.$&lt;WZU=G^M)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!EA!!!!!"!!E!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">33554440</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082655248</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+	<Item Name="Methods" Type="Folder">
+		<Item Name="Protected" Type="Folder">
+			<Item Name="Load Reference.vi" Type="VI" URL="../Load Reference.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;0!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$Z!=!!?!!!&gt;'V*B:'FP1H6U&gt;'^O=U.P&lt;H2S&lt;WQO&lt;(:D&lt;'&amp;T=Q!85G&amp;E;7^#&gt;82U&lt;WZT1W^O&gt;(*P&lt;#"P&gt;81!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71(!!#!!!!!-!!!F3:7:F=G6O9W5!0E"Q!"Y!!"U&lt;5G&amp;E;7^#&gt;82U&lt;WZT1W^O&gt;(*P&lt;#ZM&gt;G.M98.T!":3972J&lt;U*V&gt;(2P&lt;H.$&lt;WZU=G^M)'FO!!"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!=!#!-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!1!!!!EA!!!!!"!!E!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">33554440</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082655248</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+			</Item>
 		</Item>
+		<Item Name="Public" Type="Folder"/>
 	</Item>
+	<Item Name="Properties" Type="Folder"/>
 </LVClass>

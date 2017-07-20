@@ -43,6 +43,21 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 	<Item Name="MixedSignalGraph.ctl" Type="Class Private Data" URL="MixedSignalGraph.ctl">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Methods" Type="Folder">
+		<Item Name="Protected" Type="Folder">
+			<Item Name="Load Reference.vi" Type="VI" URL="../Load Reference.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&amp;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'%VJ?'6E5WFH&lt;G&amp;M2X*B='AO&lt;(:D&lt;'&amp;T=Q!!&amp;%VJ?'6E5WFH&lt;G&amp;M2X*B='AA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!=!!)!!!!!Q!!#6*F:G6S:7ZD:1!Y1(!!(A!!'BB.;8BF:&amp;.J:WZB&lt;%&gt;S98"I,GRW9WRB=X-!!"..;8BF:&amp;.J:WZB&lt;%&gt;S98"I)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!#3!!!!!!%!#1!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">33554440</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082655248</Property>
+				<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
+			</Item>
+		</Item>
+		<Item Name="Public" Type="Folder"/>
+	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Item Name="Active Bus" Type="Property Definition">
 			<Property Name="NI.ClassItem.Property.LongName" Type="Str">Active Bus</Property>
@@ -607,18 +622,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 				<Property Name="NI.ClassItem.State" Type="Int">1351361040</Property>
 			</Item>
-		</Item>
-	</Item>
-	<Item Name="Protected Methods" Type="Folder">
-		<Item Name="Load Reference.vi" Type="VI" URL="../Load Reference.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;&amp;!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$J!=!!?!!!;'%VJ?'6E5WFH&lt;G&amp;M2X*B='AO&lt;(:D&lt;'&amp;T=Q!!&amp;%VJ?'6E5WFH&lt;G&amp;M2X*B='AA&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!":!=!!)!!!!!Q!!#6*F:G6S:7ZD:1!Y1(!!(A!!'BB.;8BF:&amp;.J:WZB&lt;%&gt;S98"I,GRW9WRB=X-!!"..;8BF:&amp;.J:WZB&lt;%&gt;S98"I)'FO!&amp;1!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!Q!!?!!!$1A!!!!!!!!!!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!"!!!!#3!!!!!!%!#1!!!!!</Property>
-			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
-			<Property Name="NI.ClassItem.Flags" Type="Int">33554440</Property>
-			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">3</Property>
-			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082655248</Property>
-			<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 		</Item>
 	</Item>
 </LVClass>
