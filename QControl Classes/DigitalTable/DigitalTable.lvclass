@@ -56,7 +56,44 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 				<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 			</Item>
 		</Item>
-		<Item Name="Public" Type="Folder"/>
+		<Item Name="Public" Type="Folder">
+			<Item Name="Export Data to Clipboard.vi" Type="VI" URL="../Export Data to Clipboard.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%@!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%2J:WFU97R597*M:3ZM&gt;G.M98.T!!!12'FH;82B&lt;&amp;2B9GRF)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2%;7&gt;J&gt;'&amp;M6'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=Q!!$U2J:WFU97R597*M:3"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#A!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1107821072</Property>
+			</Item>
+			<Item Name="Export Data to Excel.vi" Type="VI" URL="../Export Data to Excel.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%@!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%2J:WFU97R597*M:3ZM&gt;G.M98.T!!!12'FH;82B&lt;&amp;2B9GRF)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!Q1(!!(A!!&amp;B2%;7&gt;J&gt;'&amp;M6'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=Q!!$U2J:WFU97R597*M:3"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!%!!1!"A!%!!1!"Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!E!!!!!!"!!A!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">3</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="ExportImage.vi" Type="VI" URL="../ExportImage.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'&amp;!!!!$1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!$*!=!!?!!!7&amp;%2J:WFU97R597*M:3ZM&gt;G.M98.T!!!12'FH;82B&lt;&amp;2B9GRF)'^V&gt;!!!&amp;E!B%%&amp;M&gt;W&amp;Z=S"0&gt;G6S&gt;X*J&gt;'5!!!Z!-P````]%5'&amp;U;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!@1"=!!A2';7RF#5.M;8"C&lt;W&amp;S:!!!"F2B=G&gt;F&gt;!!!)U!8!!1$1EV1!U615Q.&amp;459%5%F$6!!!#5:J&lt;'5A6(FQ:1!Q1(!!(A!!&amp;B2%;7&gt;J&gt;'&amp;M6'&amp;C&lt;'5O&lt;(:D&lt;'&amp;T=Q!!$U2J:WFU97R597*M:3"J&lt;A"5!0!!$!!$!!1!"!!&amp;!!1!"!!'!!=!#!!*!!I!#Q-!!(A!!!U)!!!!!!!!!!!!!)U,!!!!!!!!!!!!!!I!!!!+!!!!#A!!!")!!!!3!!!!E!!!!!!"!!Q!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1116209680</Property>
+			</Item>
+			<Item Name="Point To Row Column.vi" Type="VI" URL="../Point To Row Column.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!(*!!!!%!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!#5!$!!.3&lt;X=!$5!$!!:$&lt;WRV&lt;7Y!!$Y!]1!!!!!!!!!"'5R75G^X17ZE1W^M&gt;7VO6(FQ:52F:CZD&gt;'Q!(%"1!!)!"!!&amp;$5.F&lt;'QA5'^T;82J&lt;WY!%%!B#EFO)%*P&gt;7ZE=T]!!$*!=!!?!!!7&amp;%2J:WFU97R597*M:3ZM&gt;G.M98.T!!!12'FH;82B&lt;&amp;2B9GRF)'^V&gt;!!!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!#U!$!!2-:7:U!!!*1!-!!V2P=!!S!0%!!!!!!!!!!26-6F"P=WFU;7^O6(FQ:52F:CZD&gt;'Q!&amp;%"1!!)!#Q!-"6"P;7ZU!$"!=!!?!!!7&amp;%2J:WFU97R597*M:3ZM&gt;G.M98.T!!!02'FH;82B&lt;&amp;2B9GRF)'FO!&amp;1!]!!-!!-!"A!(!!A!#1!*!!E!#1!+!!E!$1!/!Q!!?!!!$1A!!!E!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!")!!!#1!!!!!!%!$Q!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1116209680</Property>
+			</Item>
+		</Item>
 	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Item Name="Active Cell Active Cell" Type="Property Definition">

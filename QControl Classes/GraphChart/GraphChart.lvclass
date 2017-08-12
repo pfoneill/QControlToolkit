@@ -56,7 +56,35 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 				<Property Name="NI.LibItem.Scope" Type="Int">3</Property>
 			</Item>
 		</Item>
-		<Item Name="Public" Type="Folder"/>
+		<Item Name="Public" Type="Folder">
+			<Item Name="ForceRedraw.vi" Type="VI" URL="../ForceRedraw.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!%8!!!!#1!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#Z!=!!?!!!5%E&gt;S98"I1WBB=H1O&lt;(:D&lt;'&amp;T=Q!!$E&gt;S98"I1WBB=H1A&lt;X6U!!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!#R!=!!?!!!5%E&gt;S98"I1WBB=H1O&lt;(:D&lt;'&amp;T=Q!!$5&gt;S98"I1WBB=H1A;7Y!6!$Q!!Q!!Q!%!!1!"1!%!!1!"!!%!!9!"!!%!!=$!!"Y!!!.#!!!!!!!!!!!!!#.#Q!!!!!!!!!!!!!!!!!!!!!!!!A!!!!!!!!!!!!!!*!!!!!!!1!)!!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">3</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1082929680</Property>
+			</Item>
+			<Item Name="Map Coords To XY.vi" Type="VI" URL="../Map Coords To XY.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'[!!!!%A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"U!+!!&amp;9!!&gt;!#A!"71!/1&amp;!!!A!%!!5#7&amp;E!!"J!)26.98!A1W^P=G2J&lt;G&amp;U:8-A6']A7&amp;E!,E"Q!"Y!!"132X*B='B$;'&amp;S&gt;#ZM&gt;G.M98.T!!!/2X*B='B$;'&amp;S&gt;#"P&gt;81!!!1!!!!.1!-!"VEA5W.B&lt;'5!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!.1!-!"VAA5W.B&lt;'5!%5!$!!J)&lt;X*J?G^O&gt;'&amp;M!!!01!-!#&amp;:F=H2J9W&amp;M!!!T!0%!!!!!!!!!!22-6F"P;7ZU-T*5?8"F2'6G,G.U&lt;!!71&amp;!!!A!.!!Y'1W^P=G2T!!!M1(!!(A!!&amp;"*(=G&amp;Q;%.I98*U,GRW9WRB=X-!!!V(=G&amp;Q;%.I98*U)'FO!&amp;1!]!!-!!-!"A!(!!A!#1!*!!E!#A!,!!Q!$Q!1!Q!!?!!!$1A!!!E!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!I!!!!+!!!!#A!!!")!!!#1!!!!!!%!%1!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1116209680</Property>
+			</Item>
+			<Item Name="Map XY To Coords.vi" Type="VI" URL="../Map XY To Coords.vi">
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'[!!!!%A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!%5!$!!J)&lt;X*J?G^O&gt;'&amp;M!!!01!-!#&amp;:F=H2J9W&amp;M!!!T!0%!!!!!!!!!!22-6F"P;7ZU-T*5?8"F2'6G,G.U&lt;!!71&amp;!!!A!%!!5'1W^P=G2T!!!;1#%647&amp;Q)&amp;B:)&amp;2P)%.P&lt;X*E;7ZB&gt;'6T!#Z!=!!?!!!5%E&gt;S98"I1WBB=H1O&lt;(:D&lt;'&amp;T=Q!!$E&gt;S98"I1WBB=H1A&lt;X6U!!!%!!!!$5!$!!&gt;:)&amp;.D97RF!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!$5!$!!&gt;9)&amp;.D97RF!!&gt;!#A!"7!!(1!I!!6E!$E"1!!)!$1!/!FB:!!!M1(!!(A!!&amp;"*(=G&amp;Q;%.I98*U,GRW9WRB=X-!!!V(=G&amp;Q;%.I98*U)'FO!&amp;1!]!!-!!-!"A!(!!A!#1!*!!E!#A!,!!Q!$Q!1!Q!!?!!!$1A!!!E!!!!*!!!!D1M!!!!!!!!!!!!!!!!!!!I!!!!+!!!!#A!!!")!!!#1!!!!!!%!%1!!!!!</Property>
+				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
+				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">false</Property>
+				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1116209680</Property>
+			</Item>
+		</Item>
 	</Item>
 	<Item Name="Properties" Type="Folder">
 		<Item Name="Active X Scale" Type="Property Definition">
