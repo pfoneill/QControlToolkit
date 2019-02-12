@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2016-08-17 16:50:40" Modified_Date="2016-09-21 16:30:20" Creator="Quentin" Comments="" ID="ef2896e64d8e6c59cb3280db5f80355f">
+<VI_Package_Builder_Settings Version="2017" Created_Date="2016-08-17 16:50:40" Modified_Date="2018-03-30 21:11:54" Creator="Quentin" Comments="" ID="9ed6d2f5450c2f2df87d5c763d6286c8">
   <Library_General_Settings>
     <Package_File_Name>QSI_QControl_Toolkit</Package_File_Name>
-    <Library_Version>2.0.0.7</Library_Version>
+    <Library_Version>3.0.0.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..</Library_Output_Folder>
+    <Library_Output_Folder>..\Builds\QControl Toolkit</Library_Output_Folder>
     <Company_Name>Q Software Innovations, LLC</Company_Name>
     <Library_Summary/>
     <Library_License>Revised BSD</Library_License>
@@ -41,7 +41,9 @@
       <Copyright/>
       <Packager>Quentin "Q" Alldredge</Packager>
       <URL>www.qsoftwareinnovations.com</URL>
-      <Release_Notes>Initial Release</Release_Notes>
+      <Release_Notes>Added all built-in methods
+Changed color to match VI Server Reference
+Changed wire design</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -97,6 +99,11 @@
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path/>
       </Project_Provider>
+      <QuickDrop_Plugins>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path/>
+      </QuickDrop_Plugins>
       <Additional_Destination>
         <Name>Plugins</Name>
         <LLB>false</LLB>
@@ -205,12 +212,11 @@
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
       </Namespace_Overrides>
-      <Exclusions>
-        <Path>LabVIEW Help HTML</Path>
-      </Exclusions>
-      <Exclusions>
-        <Path>Scripts</Path>
-      </Exclusions>
+      <Namespace_Overrides>
+        <Path>Examples/Dummy Data SubVI.vi</Path>
+        <Namespace_Type>Prefix</Namespace_Type>
+        <Namespace>_</Namespace>
+      </Namespace_Overrides>
       <Exclusions>
         <Path>Documentation</Path>
       </Exclusions>
@@ -428,7 +434,7 @@
         <Path>QControl Classes\TreeSelectionSingle</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>AD4BB985986FAD83A8B3BEBFB966F6E1</GUID>
+      <GUID>4E5CB41A9F8D532CFF733FE4D7399C0D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -491,7 +497,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>33AC8B23B44D3C83329257480B6465DE</GUID>
+      <GUID>7E0781136B6F701CB099E0F4DE64971D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -568,7 +574,7 @@
         <Path>QControl Classes\MulticolumnListboxSelection\Load List.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>06C4F0DB0DF92A16A2986E01414AEB7C</GUID>
+      <GUID>F0D7FD600C0ED28A4037D6C01097B503</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -631,7 +637,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>BEEC281E8A541A676A36BAF1687D21DD</GUID>
+      <GUID>BBBA5B3BEA6D5A3BF2ACABD824072F1A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -694,7 +700,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>096B9FFDBA07BBC98FB85C71B24CF587</GUID>
+      <GUID>B16F4F40B19282C62BC52893C438F7C2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -799,7 +805,7 @@
         <Path>QControl Classes\Steps\Goto Start.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>00D9410B9DE491EDCC9DDED0DCC064DE</GUID>
+      <GUID>DD6466E339FCC7178A2E8F441B6BC13B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -862,7 +868,7 @@
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>FDB81650035908F8EBE203888C2D37B3</GUID>
+      <GUID>991BE399E689B6B6B80692D3A9EE851B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1065,7 +1071,7 @@
         <Path>QControl Classes\TreeSelection\Add Item.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E4626BF1417A442426EBCF26B619F601</GUID>
+      <GUID>A83555FF8E2098EAF2131162F429EFB9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1268,7 +1274,7 @@
         <Path>QControl Classes\TreeControl\Open-Close Items.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0571A4F19F829242C664695B4423A9DE</GUID>
+      <GUID>14E1DD65DF1F54CE5EF0F6EA246ACB48</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1471,7 +1477,7 @@
         <Path>QControl Classes\TreeControl\Open-Close Items.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>971EC7A8889F35B44007B6ED8BAAE41D</GUID>
+      <GUID>A6DD0289A9E27BCB39B5B310E5B3532C</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1506,7 +1512,7 @@
         <Path>QControl Classes\LargeScrollbar</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>5F4A071A3BE66663B4F29D2444DA82B8</GUID>
+      <GUID>A1354B17C6F754FB505B642519DBFF16</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1555,7 +1561,7 @@
         <Path>QControl Classes\LargeScrollbar\VerticalScrollbar.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6FA3B3D20B7377DFA57EB51765362ABD</GUID>
+      <GUID>FF7040227FFCA4C28116647727DAF323</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

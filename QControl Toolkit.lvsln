@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Solution>
+
+  <Project FileVersion="1.0" RelativePath="..\QControl Toolkit.lvproj"/>
+
+  <Project FileVersion="1.0" RelativePath="..\..\QControls Extended\DataGrid\DataGrid.lvproj"/>
+
+  <Project FileVersion="1.0" RelativePath="..\..\QControls Extended\RichTextBox\RichTextBox QControl.lvproj"/>
+
+</Solution>
