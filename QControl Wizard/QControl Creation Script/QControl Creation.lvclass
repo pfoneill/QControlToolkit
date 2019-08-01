@@ -472,7 +472,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 				<Property Name="NI.ClassItem.State" Type="Int">1107821056</Property>
 			</Item>
 		</Item>
-		<Item Name="QControl Creator Core.vi" Type="VI" URL="../../QControl Creation Wizard/QControl Creator Core.vi">
+		<Item Name="QControl Creator Core.vi" Type="VI" URL="../QControl Creator Core.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!$X!!!!#!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!#"!5!!$!!!!!1!#%W6S=G^S)'FO)#BO&lt;S"F=H*P=CE!/E"Q!"Y!!"M:55.P&lt;H2S&lt;WQA1X*F982J&lt;WYO&lt;(:D&lt;'&amp;T=Q!555.P&lt;H2S&lt;WQA1X*F982J&lt;WYA;7Y!!&amp;1!]!!-!!-!"!!%!!1!"!!%!!1!"!!&amp;!!1!"!!'!Q!!?!!!#1!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!+!!!!!!!!!!!!!!!1!!!!!!%!"Q!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>

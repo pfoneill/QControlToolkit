@@ -136,14 +136,14 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
 		</Item>
-		<Item Name="Generate New QControl Path.vi" Type="VI" URL="../../QControl Creation Script/Generate New QControl Path.vi">
+		<Item Name="Generate New QControl Path.vi" Type="VI" URL="../Generate New QControl Path.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;C!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!-P````]/4G6X)%.M98.T)&amp;"B&gt;'A!!%"!=!!?!!!C)&amp;&amp;$&lt;WZU=G^M)%.S:7&amp;U;7^O)&amp;&gt;J?G&amp;S:#ZM&gt;G.M98.T!!!455.P&lt;H2S&lt;WQA6WF[98*E)'^V&gt;!!A1&amp;!!!Q!!!!%!!B.F=H*P=C"J&lt;C!I&lt;G]A:8*S&lt;X)J!%"!=!!?!!!C)&amp;&amp;$&lt;WZU=G^M)%.S:7&amp;U;7^O)&amp;&gt;J?G&amp;S:#ZM&gt;G.M98.T!!!355.P&lt;H2S&lt;WQA6WF[98*E)'FO!!"B!0!!$!!$!!1!"1!'!!1!"!!%!!1!"Q!%!!1!#!-!!(A!!!U)!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!*!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1074536976</Property>
 		</Item>
 		<Item Name="Get QControl Class Hierarchy.vi" Type="VI" URL="../Get QControl Class Hierarchy.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;"!!!!"A!%!!!!*%!Q`````RJG;7RF&lt;G&amp;N:3"X;82I&lt;X6U)'6Y&gt;'6O=WFP&lt;A!!+E"!!!,``````````Q!"'&amp;&amp;$&lt;WZU=G^M)%.M98.T)%BJ:8*B=G.I?1!!2%"Q!"Y!!#)A55.P&lt;H2S&lt;WQA1X*F982J&lt;WYA6WF[98*E,GRW9WRB=X-!!":$&lt;WZU=G^M1WRB=X.8;8JB=G1A&lt;X6U!!"#1(!!(A!!)C"21W^O&gt;(*P&lt;#"$=G6B&gt;'FP&lt;C"8;8JB=G1O&lt;(:D&lt;'&amp;T=Q!!&amp;5.P&lt;H2S&lt;WR$&lt;'&amp;T=V&gt;J?G&amp;S:#"J&lt;A"B!0!!$!!!!!!!!A!$!!!!!!!!!!!!!!!!!!!!"!-!!(A!!!!!!!!!!!!!#1!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!&amp;!!!!!!</Property>
@@ -233,7 +233,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1350574608</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1350836752</Property>
 		</Item>
 		<Item Name="Update Description.vi" Type="VI" URL="../Update Description.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;E!!!!#A!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!%2!=!!?!!!C)&amp;&amp;$&lt;WZU=G^M)%.S:7&amp;U;7^O)&amp;&gt;J?G&amp;S:#ZM&gt;G.M98.T!!!71W^O&gt;(*P&lt;%.M98.T6WF[98*E)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!51$$`````#U2F=W.S;8"U;7^O!%*!=!!?!!!C)&amp;&amp;$&lt;WZU=G^M)%.S:7&amp;U;7^O)&amp;&gt;J?G&amp;S:#ZM&gt;G.M98.T!!!61W^O&gt;(*P&lt;%.M98.T6WF[98*E)'FO!'%!]!!-!!-!"!!%!!5!"!!%!!1!"!!'!!1!"Q!)!A!!?!!!$1A!!!!!!!!!!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!B!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!E!!!!!</Property>
@@ -272,13 +272,13 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 			<Property Name="NI.ClassItem.State" Type="Int">1082139152</Property>
 		</Item>
 		<Item Name="Update Save Location.vi" Type="VI" URL="../Update Save Location.vi">
-			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'-!!!!$!!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!'%!Q`````QZ';7ZB&lt;#"1982I)'^V&gt;!!!"!!!!%2!=!!?!!!C)&amp;&amp;$&lt;WZU=G^M)%.S:7&amp;U;7^O)&amp;&gt;J?G&amp;S:#ZM&gt;G.M98.T!!!71W^O&gt;(*P&lt;%.M98.T6WF[98*E)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!71$$`````$5:J&lt;G&amp;M)&amp;"B&gt;'AA;7Y!$E!S`````Q21982I!!"#1(!!(A!!)C"21W^O&gt;(*P&lt;#"$=G6B&gt;'FP&lt;C"8;8JB=G1O&lt;(:D&lt;'&amp;T=Q!!&amp;5.P&lt;H2S&lt;WR$&lt;'&amp;T=V&gt;J?G&amp;S:#"J&lt;A"B!0!!$!!$!!1!"1!'!!5!"1!&amp;!!5!"Q!)!!E!#A)!!(A!!!U)!!!*!!!!!!!!!!U,!!!!!!!!!!!!!!!!!!!!!!!!#!!!!B!!!!!1!!!!%A!!$1!!!!Q!!!!!!!!!!!!!!1!,!!!!!!</Property>
+			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;W!!!!#Q!-1#%'=X2B&gt;(6T!!!,1!-!"'.P:'5!!""!-0````]'=W^V=G.F!!!71&amp;!!!Q!!!!%!!AFF=H*P=C"P&gt;81!"!!!!"B!-0````]/2GFO97QA5'&amp;U;#"P&gt;81!!%2!=!!?!!!C)&amp;&amp;$&lt;WZU=G^M)%.S:7&amp;U;7^O)&amp;&gt;J?G&amp;S:#ZM&gt;G.M98.T!!!71W^O&gt;(*P&lt;%.M98.T6WF[98*E)'^V&gt;!!!)%"1!!-!!!!"!!)4:8*S&lt;X)A;7YA+'ZP)'6S=G^S+1!/1$,`````"&amp;"B&gt;'A!!%*!=!!?!!!C)&amp;&amp;$&lt;WZU=G^M)%.S:7&amp;U;7^O)&amp;&gt;J?G&amp;S:#ZM&gt;G.M98.T!!!61W^O&gt;(*P&lt;%.M98.T6WF[98*E)'FO!'%!]!!-!!-!"!!&amp;!!9!"!!%!!1!"!!(!!1!#!!*!A!!?!!!$1A!!!!!!!!*!!!!$1M!!!!!!!!!!!!!!!!!!!!!!!!)!!!!!!!!!"!!!!!3!!!.!!!!$!!!!!!!!!!!!!!"!!I!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1082139136</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 		</Item>
 	</Item>
 	<Item Name="Protected Methods" Type="Folder">
