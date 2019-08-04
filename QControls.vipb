@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2017" Created_Date="2016-08-17 16:50:40" Modified_Date="2018-03-30 21:11:54" Creator="Quentin" Comments="" ID="9ed6d2f5450c2f2df87d5c763d6286c8">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-08-17 16:50:40" Modified_Date="2019-08-03 20:33:07" Creator="Quentin" Comments="" ID="2e331a6d38e38ff5475209103493d3bb">
   <Library_General_Settings>
     <Package_File_Name>QSI_QControl_Toolkit</Package_File_Name>
-    <Library_Version>3.0.0.4</Library_Version>
+    <Library_Version>3.1.0.7</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Builds\QControl Toolkit</Library_Output_Folder>
@@ -16,11 +16,7 @@
     <Target>LabVIEW</Target>
   </Library_General_Settings>
   <Advanced_Settings>
-    <Package_Dependencies>
-      <Additional_External_Dependencies>mgi_lib_file &gt;=1.0.0.33</Additional_External_Dependencies>
-      <Additional_External_Dependencies>oglib_array &gt;=4.1.1.14</Additional_External_Dependencies>
-      <Additional_External_Dependencies>oglib_string &gt;=4.1.0.12</Additional_External_Dependencies>
-    </Package_Dependencies>
+    <Package_Dependencies/>
     <Custom_Action_VIs>
       <Pre-Build_VI/>
       <Post-Build_VI/>
@@ -41,9 +37,14 @@
       <Copyright/>
       <Packager>Quentin "Q" Alldredge</Packager>
       <URL>www.qsoftwareinnovations.com</URL>
-      <Release_Notes>Added all built-in methods
-Changed color to match VI Server Reference
-Changed wire design</Release_Notes>
+      <Release_Notes>Performance and bug fixes.
+-Fixed reference leak that occurs if the VI front panel using a QControl is not opened right away (i.e. waiting to be in a subpanel, etc.)
+-Fixed performace issue with Wizard taking a long time to load on the first time
+-Improved performance on QControl creation
+
+Removed file that caused QControls to not build into executables.
+
+Removed third-party dependencies.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -222,6 +223,9 @@ Changed wire design</Release_Notes>
       </Exclusions>
       <Exclusions>
         <Path>QControl Toolkit.lvproj</Path>
+      </Exclusions>
+      <Exclusions>
+        <Path>QControl Templates</Path>
       </Exclusions>
     </Source_Files>
     <License_Agreement_Filepath>QControl Wizard\License.txt</License_Agreement_Filepath>
@@ -434,7 +438,7 @@ Changed wire design</Release_Notes>
         <Path>QControl Classes\TreeSelectionSingle</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4E5CB41A9F8D532CFF733FE4D7399C0D</GUID>
+      <GUID>DC351061898B2792D69C1D43B1070831</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -497,7 +501,7 @@ Changed wire design</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E0781136B6F701CB099E0F4DE64971D</GUID>
+      <GUID>371607376FBFFD665D6F33231CF602C7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -574,7 +578,7 @@ Changed wire design</Release_Notes>
         <Path>QControl Classes\MulticolumnListboxSelection\Load List.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F0D7FD600C0ED28A4037D6C01097B503</GUID>
+      <GUID>82D741E96631EE575BAC7A468174B2F1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -637,7 +641,7 @@ Changed wire design</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>BBBA5B3BEA6D5A3BF2ACABD824072F1A</GUID>
+      <GUID>6D80046882130CEA387D2B4093E0C87F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -700,7 +704,7 @@ Changed wire design</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>B16F4F40B19282C62BC52893C438F7C2</GUID>
+      <GUID>A14A9722589965A7145AF7E79F1F302C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -805,7 +809,7 @@ Changed wire design</Release_Notes>
         <Path>QControl Classes\Steps\Goto Start.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DD6466E339FCC7178A2E8F441B6BC13B</GUID>
+      <GUID>A1282D6A3210FC5AC326A3623763C126</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -868,7 +872,7 @@ Changed wire design</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>991BE399E689B6B6B80692D3A9EE851B</GUID>
+      <GUID>2C60E386E7845964F968C2A0411A9FFF</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1071,7 +1075,7 @@ Changed wire design</Release_Notes>
         <Path>QControl Classes\TreeSelection\Add Item.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A83555FF8E2098EAF2131162F429EFB9</GUID>
+      <GUID>5F690370599474F13161835A307ABF3E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1274,7 +1278,7 @@ Changed wire design</Release_Notes>
         <Path>QControl Classes\TreeControl\Open-Close Items.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>14E1DD65DF1F54CE5EF0F6EA246ACB48</GUID>
+      <GUID>5D19CA873E3F10DFCF0926CCF143A0EE</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1477,7 +1481,7 @@ Changed wire design</Release_Notes>
         <Path>QControl Classes\TreeControl\Open-Close Items.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A6DD0289A9E27BCB39B5B310E5B3532C</GUID>
+      <GUID>5782038597569A9AAB855EAF0058B787</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1512,7 +1516,7 @@ Changed wire design</Release_Notes>
         <Path>QControl Classes\LargeScrollbar</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A1354B17C6F754FB505B642519DBFF16</GUID>
+      <GUID>4E74A2DF149FF077BD2A73BFB7CD5974</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1561,7 +1565,7 @@ Changed wire design</Release_Notes>
         <Path>QControl Classes\LargeScrollbar\VerticalScrollbar.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FF7040227FFCA4C28116647727DAF323</GUID>
+      <GUID>B8177B603CBD57322CA525C622CA3A99</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>

@@ -212,6 +212,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 				</Item>
 				<Item Name="QControl Creation Wizard.lvclass" Type="LVClass" URL="../QControl Wizard/QControl Creation Wizard/QControl Creation Wizard.lvclass"/>
 			</Item>
+			<Item Name="New QControl Info.lvclass" Type="LVClass" URL="../QControl Wizard/New QControl Info/New QControl Info.lvclass"/>
 		</Item>
 		<Item Name="Change Class Color.vi" Type="VI" URL="../QControl Wizard/Auxillary VIs/Change Class Color.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
