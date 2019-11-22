@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-08-17 16:50:40" Modified_Date="2019-08-15 22:04:14" Creator="Quentin" Comments="" ID="bed93bb2e5ef45a055b1043a48f149b4">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-08-17 16:50:40" Modified_Date="2019-11-20 21:50:50" Creator="Quentin" Comments="" ID="e4120c6b19ccbefc42b6464b968ed4d0">
   <Library_General_Settings>
     <Package_File_Name>QSI_QControl_Toolkit</Package_File_Name>
-    <Library_Version>3.1.0.10</Library_Version>
+    <Library_Version>3.1.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Builds\QControl Toolkit</Library_Output_Folder>
@@ -438,7 +438,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\TreeSelectionSingle</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>A02A8CB7803DCF7DABAA199529836AA4</GUID>
+      <GUID>57332E3691A6014147351C0BEDC3D684</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -501,7 +501,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>FB887E74A565C55452DF908C480CA274</GUID>
+      <GUID>3ADD3EBCA9E07B8A8CC19F72875659DC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -578,7 +578,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\MulticolumnListboxSelection\Load List.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>07856C3D762A11CCE594C1EBA80CB835</GUID>
+      <GUID>DBD382B79C7EA8CDA791B28B3D889E9A</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -641,7 +641,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>6CAEDE256E7660C4245002C2B0499CC7</GUID>
+      <GUID>17EE5502B74EF9FDEB963E2F59873FBC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -704,7 +704,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>BBEF252EF8DB5A67A0B9F95EBA2D29AE</GUID>
+      <GUID>BCE4886291EB592A9AE5C3B0A0A1249D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -809,7 +809,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\Steps\Goto Start.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>FD524891F92AA39C1DCF2C5A4058A5FF</GUID>
+      <GUID>88DBD73E24345A687231D11DE4BA771D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -872,7 +872,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>A6F46EDBEA3A03A605A4D40D7DF41B26</GUID>
+      <GUID>4F4F175C947F336B552FA93C5EB620D7</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1075,7 +1075,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\TreeSelection\Add Item.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>71C3D6E43D7692A4B4BF89FBEF9DAA5B</GUID>
+      <GUID>06FC1B1621ADD8D1B94C47A6F8522852</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1278,7 +1278,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\TreeControl\Open-Close Items.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>255938042B5AA59DEE048D64E34112AA</GUID>
+      <GUID>A733D2894760AD28F505AC454EE64833</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1481,7 +1481,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\TreeControl\Open-Close Items.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>D88DD0E1428735C7F39D931C0C2B8C01</GUID>
+      <GUID>4153F0F15EB150A47CCF824D67AA60B6</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1516,7 +1516,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\LargeScrollbar</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>E675417486ABBA86725F3E0365EAE83B</GUID>
+      <GUID>7C2F97C08F1760A22826D0BB49786D83</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1565,7 +1565,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\LargeScrollbar\VerticalScrollbar.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>142333132637A89CB84C065375D2DDEF</GUID>
+      <GUID>95FFD701618682784FD600358FFFADB1</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
