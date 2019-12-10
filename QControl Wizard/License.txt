@@ -1,4 +1,4 @@
-©2016 Q Software Innovations, LLC  (QSI)
+©2016-2019 Q Software Innovations, LLC  (QSI)
 written by Quentin "Q" Alldredge
 produced in LabVIEW 2015
 

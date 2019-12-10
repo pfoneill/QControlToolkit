@@ -93,7 +93,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 			<Item Name="~$Project Explorer Context Menu Definitions.xlsx" Type="Document" URL="../Documentation/~$Project Explorer Context Menu Definitions.xlsx"/>
 		</Item>
 		<Item Name="Examples" Type="Folder">
-			<Item Name="Dummy Data SubVI.vi" Type="VI" URL="../Examples/Dummy Data SubVI.vi"/>
+			<Item Name="SubVIs" Type="Folder">
+				<Item Name="Dummy Data SubVI.vi" Type="VI" URL="../Examples/SubVIs/Dummy Data SubVI.vi"/>
+			</Item>
 			<Item Name="LargeScrollbar Example.vi" Type="VI" URL="../Examples/LargeScrollbar Example.vi"/>
 			<Item Name="StatusHistory Example.vi" Type="VI" URL="../Examples/StatusHistory Example.vi"/>
 			<Item Name="TreeDirectory Example.vi" Type="VI" URL="../Examples/TreeDirectory Example.vi"/>
@@ -104,7 +106,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 			<Item Name="The QControl Toolkit.pdf" Type="Document" URL="../Help/The QControl Toolkit.pdf"/>
 		</Item>
 		<Item Name="QControl Classes" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Interface Classes" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">0</Property>
 				<Item Name="Array.lvclass" Type="LVClass" URL="../QControl Classes/Array/Array.lvclass"/>
@@ -170,11 +172,9 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 				<Item Name="WaveformGraph.lvclass" Type="LVClass" URL="../QControl Classes/WaveformGraph/WaveformGraph.lvclass"/>
 				<Item Name="XYGraph.lvclass" Type="LVClass" URL="../QControl Classes/XYGraph/XYGraph.lvclass"/>
 			</Item>
-			<Item Name="BreadcrumbNavigator.lvclass" Type="LVClass" URL="../QControl Classes/BreadcrumbNavigator/BreadcrumbNavigator.lvclass"/>
-			<Item Name="Calendar.lvclass" Type="LVClass" URL="../QControl Classes/Calendar/Calendar.lvclass"/>
+			<Item Name="LargeScrollbar.lvclass" Type="LVClass" URL="../QControl Classes/LargeScrollbar/LargeScrollbar.lvclass"/>
 			<Item Name="MulticolumnListboxSelection.lvclass" Type="LVClass" URL="../QControl Classes/MulticolumnListboxSelection/MulticolumnListboxSelection.lvclass"/>
 			<Item Name="SlideBackgroundGradient.lvclass" Type="LVClass" URL="../QControl Classes/SliderBackgroundGradient/SlideBackgroundGradient.lvclass"/>
-			<Item Name="LargeScrollbar.lvclass" Type="LVClass" URL="../QControl Classes/LargeScrollbar/LargeScrollbar.lvclass"/>
 			<Item Name="StatusHistory.lvclass" Type="LVClass" URL="../QControl Classes/StatusHistory/StatusHistory.lvclass"/>
 			<Item Name="Steps.lvclass" Type="LVClass" URL="../QControl Classes/Steps/Steps.lvclass"/>
 			<Item Name="TreeDirectory.lvclass" Type="LVClass" URL="../QControl Classes/TreeDirectory/TreeDirectory.lvclass"/>
@@ -302,7 +302,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 				<Item Name="LVRGBAColorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRGBAColorTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
-				<Item Name="LVSelectionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVSelectionTypeDef.ctl"/>
 				<Item Name="LVStringsAndValuesArrayTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVStringsAndValuesArrayTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -317,9 +316,6 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 				<Item Name="Scale Value to New Range.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/Range And Ratio.llb/Scale Value to New Range.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
-				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
-				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
-				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
 				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>

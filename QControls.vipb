@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-08-17 16:50:40" Modified_Date="2019-11-22 15:47:32" Creator="Quentin" Comments="" ID="3dbf28d8be2800365d4f8daa25a7c369">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-08-17 16:50:40" Modified_Date="2019-12-02 23:08:17" Creator="Quentin" Comments="" ID="91f16fc82e1270008a6a652d2c9f10a5">
   <Library_General_Settings>
     <Package_File_Name>QSI_QControl_Toolkit</Package_File_Name>
-    <Library_Version>3.1.0.13</Library_Version>
+    <Library_Version>3.1.0.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Builds\QControl Toolkit</Library_Output_Folder>
@@ -44,7 +44,11 @@
 
 Removed file that caused QControls to not build into executables.
 
-Removed third-party dependencies.</Release_Notes>
+Removed third-party dependencies.
+
+Fixed some broken methods that are part of the Tree Control.
+
+Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor of an override of the Item Names property that does the same thing.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -117,6 +121,12 @@ Removed third-party dependencies.</Release_Notes>
         <Preserve_Hierarchy>true</Preserve_Hierarchy>
         <Path>&lt;application&gt;\examples\exbins</Path>
       </Additional_Destination>
+      <Additional_Destination>
+        <Name>Example SubVIs</Name>
+        <LLB>false</LLB>
+        <Preserve_Hierarchy>true</Preserve_Hierarchy>
+        <Path>&lt;application&gt;\examples\QSI\QControl Toolkit\SubVIs</Path>
+      </Additional_Destination>
     </Destinations>
     <Source_Files>
       <Destination_Overrides>
@@ -168,12 +178,6 @@ Removed third-party dependencies.</Release_Notes>
         <Additional_Destination_Index>0</Additional_Destination_Index>
       </Destination_Overrides>
       <Destination_Overrides>
-        <Path>Examples/Dummy Data SubVI.vi</Path>
-        <Destination>1</Destination>
-        <Additional_Destination>false</Additional_Destination>
-        <Additional_Destination_Index>0</Additional_Destination_Index>
-      </Destination_Overrides>
-      <Destination_Overrides>
         <Path>Examples/LargeScrollbar Example.vi</Path>
         <Destination>1</Destination>
         <Additional_Destination>false</Additional_Destination>
@@ -203,6 +207,12 @@ Removed third-party dependencies.</Release_Notes>
         <Additional_Destination>true</Additional_Destination>
         <Additional_Destination_Index>1</Additional_Destination_Index>
       </Destination_Overrides>
+      <Destination_Overrides>
+        <Path>Examples/SubVIs</Path>
+        <Destination>0</Destination>
+        <Additional_Destination>true</Additional_Destination>
+        <Additional_Destination_Index>2</Additional_Destination_Index>
+      </Destination_Overrides>
       <Password_Overrides>
         <Path>.</Path>
         <Password/>
@@ -212,11 +222,6 @@ Removed third-party dependencies.</Release_Notes>
         <Path>.</Path>
         <Namespace_Type>Prefix</Namespace_Type>
         <Namespace/>
-      </Namespace_Overrides>
-      <Namespace_Overrides>
-        <Path>Examples/Dummy Data SubVI.vi</Path>
-        <Namespace_Type>Prefix</Namespace_Type>
-        <Namespace>_</Namespace>
       </Namespace_Overrides>
       <Exclusions>
         <Path>Documentation</Path>
@@ -441,7 +446,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\TreeSelectionSingle</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2E9851F22D17FF7E5CAEB5AFC37F7D04</GUID>
+      <GUID>70D5EA500558C57B11607990DB98535B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -504,7 +509,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>E8A4E128980B989234AC5C0B15E9F612</GUID>
+      <GUID>CB785A1FB182A6C450A4E34F09857187</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -567,21 +572,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <Items_Data>
-        <Type>Item</Type>
-        <Sub_Palette_Index>-1</Sub_Palette_Index>
-        <NameSub_Menu_Name>Load List.vi</NameSub_Menu_Name>
-        <Short_Name/>
-        <is_Merge_VI>false</is_Merge_VI>
-        <Position>
-          <Row>1</Row>
-          <Column>4</Column>
-        </Position>
-        <Icon>00000000</Icon>
-        <Path>QControl Classes\MulticolumnListboxSelection\Load List.vi</Path>
-        <VI_Title/>
-      </Items_Data>
-      <GUID>19AAEDD6A69C236BC848EAF8A5C3E889</GUID>
+      <GUID>0C7E00036B5855B235A25D6002ED4D1D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -644,7 +635,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>F4F039650B024161D768F4203DB52C28</GUID>
+      <GUID>E708BFCAA3150A41A1C164BF3F8742A5</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -707,7 +698,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>7C0DA91085B9F6253BDB9E82C251EACF</GUID>
+      <GUID>25D6D78D03506BF3196D7ED58C88E271</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -812,7 +803,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\Steps\Goto Start.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0262E4599B79D5DB0BD5FEE3253743CC</GUID>
+      <GUID>161F078A67D4AF4EED979E1B54CF62AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -875,7 +866,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>629902F60CEDFF95D6157438251A5691</GUID>
+      <GUID>B6A94FE3494B336445AA772EBC38C178</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1078,7 +1069,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\TreeSelection\Add Item.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>180354D8B1D469B988FA682ED31A1023</GUID>
+      <GUID>DF4A3C473220F71324641E1F113987E2</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1281,7 +1272,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\TreeControl\Open-Close Items.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>60993228DEC7148E52ADFE16830C7D12</GUID>
+      <GUID>8918176901EB5C28238F3113A33CC456</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1484,7 +1475,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\TreeControl\Open-Close Items.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>37DF6C70E36AAC8657323FED62C311E8</GUID>
+      <GUID>2B8C5ADC1AAB51A3515FC3A1926BA301</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1519,7 +1510,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\LargeScrollbar</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2368074A7A877439793415BE35F69F2D</GUID>
+      <GUID>99FA24ECBADEF6226132C0A2FB288CAE</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1568,7 +1559,7 @@ Removed third-party dependencies.</Release_Notes>
         <Path>QControl Classes\LargeScrollbar\VerticalScrollbar.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C84AE8FE74D2A5D5B3A3C43143E3AAAC</GUID>
+      <GUID>19F020A97D937105D5B895287DD930E7</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
