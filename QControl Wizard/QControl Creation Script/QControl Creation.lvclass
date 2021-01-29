@@ -331,12 +331,15 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 				<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
 			</Item>
 		</Item>
+	</Item>
+	<Item Name="Public Methods" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
 		<Item Name="Create Class Banner Icon.vi" Type="VI" URL="../Create Class Banner Icon.vi">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;H!!!!%1!%!!!!%5!$!!JJ&lt;7&amp;H:3"U?8"F!!!21!-!#WFN97&gt;F)'2F=(2I!!5!"1!!%E"!!!(`````!!-&amp;;7VB:W5!%E"!!!(`````!!-%&lt;7&amp;T;Q!!"1!(!!!51%!!!@````]!"A:D&lt;WRP=H-!!!N!!A!%&lt;'6G&gt;!!!#5!#!!.U&lt;X!!#U!#!!6S;7&gt;I&gt;!!.1!)!"G*P&gt;(2P&lt;1!!'%"1!!1!#!!*!!I!#QF3:7.U97ZH&lt;'5!.A$R!!!!!!!!!!%.;7VB:W6E982B,G.U&lt;!!A1&amp;!!"A!"!!)!"!!&amp;!!=!$!B*9W^O)%^V&gt;!!!'%!T`````QZ*9W^O)%FN97&gt;F)%^V&gt;!!!%5!(!!N5;'6N:3"$&lt;WRP=A"5!0!!$!!!!!!!$1!/!!!!!!!!!!!!!!!!!!!!$Q-!!(A!!!!!!!!!!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!%!!!!!!"!"!!!!!!</Property>
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1074266640</Property>
 		</Item>
@@ -345,12 +348,11 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 			<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
-			<Property Name="NI.ClassItem.MethodScope" Type="UInt">2</Property>
+			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 			<Property Name="NI.ClassItem.State" Type="Int">1082130960</Property>
 		</Item>
 	</Item>
-	<Item Name="Public Methods" Type="Folder"/>
 	<Item Name="TypeDefs" Type="Folder">
 		<Item Name="Add to Location.ctl" Type="VI" URL="../Add to Location.ctl">
 			<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">&amp;1#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!!-!!!!!1!%!!!!!1!!!!!!!!</Property>
