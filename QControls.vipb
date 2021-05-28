@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-08-17 16:50:40" Modified_Date="2019-12-02 23:08:17" Creator="Quentin" Comments="" ID="91f16fc82e1270008a6a652d2c9f10a5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-08-17 16:50:40" Modified_Date="2021-05-27 20:11:22" Creator="Quentin" Comments="" ID="ba356660f5fb6079cb6341c6199280c5">
   <Library_General_Settings>
     <Package_File_Name>QSI_QControl_Toolkit</Package_File_Name>
-    <Library_Version>3.1.0.15</Library_Version>
+    <Library_Version>3.1.0.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Builds\QControl Toolkit</Library_Output_Folder>
@@ -36,7 +36,7 @@
 -  Abstract away complicated UI Logic from the main application development.</Description>
       <Copyright/>
       <Packager>Quentin "Q" Alldredge</Packager>
-      <URL>www.qsoftwareinnovations.com</URL>
+      <URL>www.qsi.dev</URL>
       <Release_Notes>Performance and bug fixes.
 -Fixed reference leak that occurs if the VI front panel using a QControl is not opened right away (i.e. waiting to be in a subpanel, etc.)
 -Fixed performace issue with Wizard taking a long time to load on the first time
@@ -446,7 +446,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\TreeSelectionSingle</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>70D5EA500558C57B11607990DB98535B</GUID>
+      <GUID>8FE2BCBCC1071D7ED1EAFA72E57BB880</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -509,7 +509,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>CB785A1FB182A6C450A4E34F09857187</GUID>
+      <GUID>709061463C7F7B85C30BEE21E2C9BDCA</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -572,7 +572,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>0C7E00036B5855B235A25D6002ED4D1D</GUID>
+      <GUID>199B6CE433B1AFE0BC3631E493B0E4D9</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -635,7 +635,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>E708BFCAA3150A41A1C164BF3F8742A5</GUID>
+      <GUID>1AE853D6DC0F42850E2EC03AF246BD7C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -698,7 +698,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>25D6D78D03506BF3196D7ED58C88E271</GUID>
+      <GUID>99AB9CFDA4ADB43B006410ABA5B9FDD4</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -803,7 +803,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\Steps\Goto Start.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>161F078A67D4AF4EED979E1B54CF62AC</GUID>
+      <GUID>4B49BED2E7D711CD9FFA038513F88A47</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -866,7 +866,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>B6A94FE3494B336445AA772EBC38C178</GUID>
+      <GUID>8F5660BFC3CF4BA18502FFD20D4AD68E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1069,7 +1069,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\TreeSelection\Add Item.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>DF4A3C473220F71324641E1F113987E2</GUID>
+      <GUID>4EC5DF43CEDEC9F295F8430369ACBFF3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1272,7 +1272,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\TreeControl\Open-Close Items.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8918176901EB5C28238F3113A33CC456</GUID>
+      <GUID>20F1F725EB8B9CF8D51D2835DEA4F7E3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1475,7 +1475,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\TreeControl\Open-Close Items.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2B8C5ADC1AAB51A3515FC3A1926BA301</GUID>
+      <GUID>0D3BA74FDF168B0F0923E7042306EEEB</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1510,7 +1510,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\LargeScrollbar</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>99FA24ECBADEF6226132C0A2FB288CAE</GUID>
+      <GUID>0873CBE92186DA081093D0CA27F9A2BF</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1559,7 +1559,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\LargeScrollbar\VerticalScrollbar.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>19F020A97D937105D5B895287DD930E7</GUID>
+      <GUID>0AD26511EF1627ECB60DC17A0E8E31ED</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
