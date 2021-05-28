@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2016-08-17 16:50:40" Modified_Date="2021-05-27 20:11:22" Creator="Quentin" Comments="" ID="ba356660f5fb6079cb6341c6199280c5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2016-08-17 16:50:40" Modified_Date="2021-05-28 14:07:40" Creator="Quentin" Comments="" ID="042b84f1b8a3eb90f8b2cd8c57eaf24f">
   <Library_General_Settings>
     <Package_File_Name>QSI_QControl_Toolkit</Package_File_Name>
-    <Library_Version>3.1.0.16</Library_Version>
+    <Library_Version>3.1.1.16</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\Builds\QControl Toolkit</Library_Output_Folder>
@@ -37,18 +37,11 @@
       <Copyright/>
       <Packager>Quentin "Q" Alldredge</Packager>
       <URL>www.qsi.dev</URL>
-      <Release_Notes>Performance and bug fixes.
--Fixed reference leak that occurs if the VI front panel using a QControl is not opened right away (i.e. waiting to be in a subpanel, etc.)
--Fixed performace issue with Wizard taking a long time to load on the first time
--Improved performance on QControl creation
+      <Release_Notes>Performance and bug fixes:
+-Fixed issue to code that adds QControls as an option in the "New" dialog.  This now allows for international (non-English) versions of LabVIEW.
 
-Removed file that caused QControls to not build into executables.
-
-Removed third-party dependencies.
-
-Fixed some broken methods that are part of the Tree Control.
-
-Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor of an override of the Item Names property that does the same thing.</Release_Notes>
+New Features:
+-Added links to Help and Examples in the Wizard after the QControl creation is finished.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -446,7 +439,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\TreeSelectionSingle</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>8FE2BCBCC1071D7ED1EAFA72E57BB880</GUID>
+      <GUID>B01C6AE4476A97D15E8F55162256F59F</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -509,7 +502,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>709061463C7F7B85C30BEE21E2C9BDCA</GUID>
+      <GUID>2484B7ACEFB2F89F76589675737097AC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -572,7 +565,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>199B6CE433B1AFE0BC3631E493B0E4D9</GUID>
+      <GUID>8A02E20AEC6F03134806CA20A2438C47</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -635,7 +628,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>1AE853D6DC0F42850E2EC03AF246BD7C</GUID>
+      <GUID>097B194C89D7F643D17AAC0461CE3785</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -698,7 +691,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>99AB9CFDA4ADB43B006410ABA5B9FDD4</GUID>
+      <GUID>A443F0986D343710F2B06767A0E4C68C</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -803,7 +796,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\Steps\Goto Start.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4B49BED2E7D711CD9FFA038513F88A47</GUID>
+      <GUID>48726FD2A730F09F0598EA16790C7B3D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -866,7 +859,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path/>
         <VI_Title/>
       </Items_Data>
-      <GUID>8F5660BFC3CF4BA18502FFD20D4AD68E</GUID>
+      <GUID>025363AAF7AF47DD19E0A7B1F5F37B38</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1069,7 +1062,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\TreeSelection\Add Item.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>4EC5DF43CEDEC9F295F8430369ACBFF3</GUID>
+      <GUID>2FC1FD46589ECABE6EA5CA6281C4346B</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1272,7 +1265,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\TreeControl\Open-Close Items.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>20F1F725EB8B9CF8D51D2835DEA4F7E3</GUID>
+      <GUID>F90567FCB5C217A6879B045DC0207AED</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1475,7 +1468,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\TreeControl\Open-Close Items.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0D3BA74FDF168B0F0923E7042306EEEB</GUID>
+      <GUID>A6CC4B1396427015FF25B0CB7E151476</GUID>
     </Functions_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>-1</Parent_Palette_Index>
@@ -1510,7 +1503,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\LargeScrollbar</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0873CBE92186DA081093D0CA27F9A2BF</GUID>
+      <GUID>8431E75F3133604EE28F69FB4F174687</GUID>
     </Controls_Palette_Data>
     <Controls_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1559,7 +1552,7 @@ Deprecated Add Items method of the MulticolumnListboxSelection QControl in favor
         <Path>QControl Classes\LargeScrollbar\VerticalScrollbar.ctl</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>0AD26511EF1627ECB60DC17A0E8E31ED</GUID>
+      <GUID>F57C41DD7CF6D576BAA1878B9B815B3A</GUID>
     </Controls_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
