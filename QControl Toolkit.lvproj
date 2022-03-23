@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="20008000">
+<Project Type="Project" LVVersion="15008000">
 	<Property Name="NI.Project.Description" Type="Str">
 &lt;b&gt; &lt;/b&gt; &lt;b&gt; &lt;/b&gt;
 ©2016 Q Software Innovations, LLC  (QSI)
